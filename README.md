@@ -1,15 +1,15 @@
 # BackSwipeLayout
 ```
 allprojects {
-		repositories {
+    repositories {
 			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+	 maven { url 'https://jitpack.io' }
+    }
+ }
 
 ```
 dependencies {
-	        implementation 'com.github.Rob8107:BackSwipeLayout:0.5'
-}
+	 implementation 'com.github.Rob8107:BackSwipeLayout:0.5'
+  }
   
   
