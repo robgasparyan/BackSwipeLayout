@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.robgas.backswipelayout.BackSwipeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:id="@+id/backSwipeLayout"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:background="@color/activity_background_color"
+            android:layout_height="match_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                tools:ignore="HardcodedText"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                tools:ignore="HardcodedText"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                tools:ignore="HardcodedText"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                tools:ignore="HardcodedText"/>
+    </LinearLayout>
+
+</com.robgas.backswipelayout.BackSwipeLayout>
